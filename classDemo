@@ -1,0 +1,18 @@
+public class calc {
+    int num1;
+    int num2;
+    int num3;
+
+    public void perform(){
+        num3 = num1 + num2;
+
+    }
+}
+public class objDemo{
+    public static void main(String[] args){
+        calc obj = new calc();
+        obj.num1 = 3;
+        obj.num2 = 8;
+        System.out.println(obj.num3);
+    }
+}
